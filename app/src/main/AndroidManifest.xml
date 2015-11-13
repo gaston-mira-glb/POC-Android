@@ -25,7 +25,6 @@
         <activity
             android:name=".activities.MainActivity"
             android:theme="@style/AppTheme.Dark" >
-
         </activity>
         <!-- Your Fabric API Key will be automatically generated when you use the Fabric plugin -->
         <meta-data
@@ -56,6 +55,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.ShowCardsActivity"
+            android:label="@string/title_activity_show_cards" >
         </activity>
     </application>
 
